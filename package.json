@@ -1,0 +1,24 @@
+{
+  "name": "homedepotconnect",
+  "version": "1.0.0",
+  "description": "Webapp for the HomeDepot code athlon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ZenOokami@github.com/jonnybegood123/HomeDepotRepoForDaPeople.git"
+  },
+  "keywords": [
+    "homedepot",
+    "hackathon",
+    "codeathlon"
+  ],
+  "author": "Dark Blu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnybegood123/HomeDepotRepoForDaPeople/issues"
+  },
+  "homepage": "https://github.com/jonnybegood123/HomeDepotRepoForDaPeople#readme"
+}
