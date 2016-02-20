@@ -44,6 +44,12 @@ body{
   height:100%;
 }
 
+.cat-list{
+  background-color: grey !important;
+  height: 48vh;
+  overflow-y:scroll;
+}
+
 .pro-description{
   background-color: blue !important;
 }
