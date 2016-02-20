@@ -15,6 +15,14 @@ router.get('/login', function(req, res) {
   res.render('login', { title: 'Home Depot Connect' });
 });
 
+router.post('/category', function(req, res) {
+            res.redirect("categories");
+});
+
+router.get('/categories', function(req, res) {
+  res.render('categories', { title: 'Home Depot Connect' });
+});
+
 router.post('/createacc', function(req, res) {
             res.redirect("account");
 });
