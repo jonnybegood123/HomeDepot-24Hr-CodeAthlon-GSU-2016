@@ -58,10 +58,6 @@ body{
   margin-bottom: 20px !important;
 }
 
-.btn.active{
-    background-color: red;
-}
-
 .list-group-item{
   border: 2px solid black;
 }
