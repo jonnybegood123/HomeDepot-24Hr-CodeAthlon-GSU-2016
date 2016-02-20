@@ -44,8 +44,16 @@ body{
   height:100%;
 }
 
+.pro-description{
+  background-color: blue !important;
+}
+
 .btn-primary{
   margin-bottom: 20px !important;
+}
+
+.btn.active{
+    background-color: red;
 }
 
 .list-group-item{
