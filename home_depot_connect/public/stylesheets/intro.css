@@ -65,3 +65,8 @@ body{
 .list-group-item{
   border: 2px solid black;
 }
+
+#confirmButton, #nextButton{
+  font-family: Segoe UI;
+  font-size: 18px;
+}
