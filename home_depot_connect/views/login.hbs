@@ -14,12 +14,18 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-      <div align="center"><img align="center" src="images/home_depot.png" height="100"/></div>
-      <h1 align="center">Sign in to view your previous projects or PROs.</h1>
-      <p  align="center"class="lead">You can also just use the bottom boxes to find a PRO nearby right away. The bottom-left box is useful for tailoring a PRO to exactly your needs. The bottom-right box is good for choosing a PRO right away!</p>
-            <form method="post" action="/signin">
-      <p class="signin-button" align="center"><button class="btn btn-lg btn-success" href="#" role="button" type="submit">Create Account</button></p>
-            </form>
+
+
+
+      <h1></h1>
+        <form method="post" action="/createacc">
+        <input id="inputUserName" type="text" placeholder="username" name="username"/>
+        <input id="inputUserPassword" type="text" placeholder="password" name="password"/>
+        <button id="btnSubmit" type="submit">submit</button>
+        </form>
+
+
+
     </div>
 
     <div class="row">
