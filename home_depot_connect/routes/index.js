@@ -2,9 +2,6 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home Depot Connect' });
-});
 
 router.post('/signin', function(req, res) {
             res.redirect("login");
@@ -15,6 +12,22 @@ router.get('/login', function(req, res) {
   res.render('login', { title: 'Home Depot Connect' });
 });
 
+router.post('/category', function(req, res) {
+            res.redirect("categories");
+});
+
+router.get('/categories', function(req, res) {
+  res.render('categories', { title: 'Home Depot Connect' });
+});
+
+router.post('/proConfirmation', function(req, res) {
+            res.redirect("confirmation");
+});
+
+router.get('/confirmation', function(req, res) {
+  res.render('confirmation', { title: 'Home Depot Connect' });
+});
+
 router.post('/createacc', function(req, res) {
             res.redirect("account");
 });
@@ -22,6 +35,14 @@ router.post('/createacc', function(req, res) {
 /* GET Account page. */
 router.get('/account', function(req, res) {
   res.render('account', { title: 'Home Depot Connect' });
+});
+
+router.post('/index', function(req, res, next) {
+            res.redirect('index');
+});
+
+router.get('/index', function(req, res) {
+  res.render('index', { title: 'Home Depot Connect' });
 });
 //
 // /* GET pro page. */

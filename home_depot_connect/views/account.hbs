@@ -6,22 +6,24 @@
       <nav>
         <ul class="nav nav-justified">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Categories</a></li>
-          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Sign Out</a></li>
         </ul>
       </nav>
     </div>
 
     <!-- Jumbotron -->
     <div class="jumbotron">
+      <h1 align="center">Welcome back, Jonathan! </h1>
+    </div>
 
-
-
-      <h1>Welcome to your login page: </h1>
-
-
-
-
+    <div class="jumbotron">
+      <h1 align="center">Previous Projects</h1>
+      <div class="cat-list" style="height: 25vh;">
+        <button type="button" class="list-group-item category-button">Front Deck</button>
+        <button type="button" class="list-group-item category-button">Chandlier Project</button>
+        <button type="button" class="list-group-item category-button">Rose Garden</button>
+      </div>
+      <button align="center" type="submit" style="color: black !important; margin-top:20px;">Review</button>
     </div>
 
     <div class="row">
@@ -52,8 +54,9 @@
             <button type="button" class="list-group-item category-button">Tools</button>
             <button type="button" class="list-group-item category-button">Hardware</button>
           </div><br><br>
-          <button id="nextButton" disabled>NEXT</button>
-        </div>
+          <form method="post" action="/category">
+            <button id="nextButton" type="submit" disabled >NEXT</button>
+          </form>        </div>
       </div>
       <div class="col-lg-6">
         <div align="center" class="pro-container">
