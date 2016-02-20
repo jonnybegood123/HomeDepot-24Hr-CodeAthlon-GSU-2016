@@ -14,6 +14,9 @@ li{
   border: 2px solid grey;
 }
 
+body{
+  background-color: #333333 !important;
+}
 .container{
   background-color: #333333;
 }
@@ -30,8 +33,9 @@ li{
 }
 
 .pro-list{
-  background-color: blue !important;
-  height: 50vh;
+  background-color: grey !important;
+  height: 48vh;
+  overflow-y:scroll;
 }
 
 .pro-list-group{
@@ -40,6 +44,10 @@ li{
   height:100%;
 }
 
-button{
+.btn-primary{
   margin-bottom: 20px !important;
+}
+
+.list-group-item{
+  border: 2px solid black;
 }
