@@ -32,6 +32,13 @@ app.use(function(req, res, next) {
   next(err);
 });
 
+// Page Routes
+app.get('signup', function(req, res){ // We create a notch that that
+  res.render('signup', {
+    title: 'Sign up'
+  });
+});
+
 // error handlers
 
 // development error handler
